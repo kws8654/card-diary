@@ -56,4 +56,5 @@ Wonsub Kim - raykim.dev@gmail.com
 
 Project Link - [https://github.com/kws8654/card-diary/](https://github.com/kws8654/card-diary/)
 
-## 7. v2.0 수정중...
+<!-- ## 7. v2.0 수정중...
+ -->
