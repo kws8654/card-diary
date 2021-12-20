@@ -1,9 +1,5 @@
 # Card Diary
 
-<img width="100%" src="https://user-images.githubusercontent.com/91405218/146666790-cb9826f6-c0a1-438c-818c-f3a2a1e0b9ce.gif"/>
-
-### [LIVE LINK](https://business-card-2173b.web.app/#/)
-
 ## 1. Title
 
     - Card Diary
@@ -30,7 +26,7 @@
   npm install npm@latest -g
   ```
   
-* Clone the repo
+* Clone the repository
    ```sh
    git clone https://github.com/kws8654/card-diary.git
    ```
@@ -40,6 +36,11 @@
    ```
    
 ## 4. Usage Example
+
+<img width="100%" src="https://user-images.githubusercontent.com/91405218/146666790-cb9826f6-c0a1-438c-818c-f3a2a1e0b9ce.gif"/>
+
+### [LIVE LINK](https://business-card-2173b.web.app/#/)
+
 * 로그인
 * 작성
   * 이미지 업로드
