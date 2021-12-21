@@ -9,7 +9,7 @@
 }
 
 .logo {
-  width: 3em;
+  width: 2.5em;
 }
 
 .title {
@@ -20,7 +20,7 @@
 .logout {
   position: absolute;
   right: 3em;
-  top: 1em;
+  top: 1.9em;
   padding: 0.8em;
   border-radius: 20%;
   background-color: makerBlack;

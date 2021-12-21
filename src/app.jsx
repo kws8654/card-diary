@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import styles from './app.module.css';
 import Login from './components/login/login';
 import Maker from './components/maker/maker';
@@ -7,12 +7,12 @@ import Maker from './components/maker/maker';
 function App({ FileInput, authService, cardRepository }) {
   return (
     <div className={styles.app}>
-      <BrowserRouter>
+      <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path='/'>
             <Login authService={authService} />
           </Route>
-          <Route path="/maker">
+          <Route path='/maker'>
             <Maker
               FileInput={FileInput}
               authService={authService}
@@ -20,7 +20,7 @@ function App({ FileInput, authService, cardRepository }) {
             />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

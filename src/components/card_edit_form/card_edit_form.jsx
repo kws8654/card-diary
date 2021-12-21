@@ -46,7 +46,7 @@ const CardEditForm = ({
     >
       <input
         className={styles.input}
-        type='text'
+        type='date'
         name='name'
         ref={nameRef}
         value={name}
@@ -68,7 +68,7 @@ const CardEditForm = ({
         onChange={onChange}
       >
         <option value='light'>light</option>
-        <option value='dark'>dark</option>
+        <option value='dark'>brown</option>
         <option value='colorful'>colorful</option>
       </select>
       <textarea

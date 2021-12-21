@@ -13,7 +13,10 @@ const Editor = ({ FileInput, cards, addCard, updateCard, deleteCard }) => {
   return (
     <section className={styles.editor}>
       <h1 className={styles.title}>
-        Write your today <button onClick={onOffEdit}>수정</button>
+        Write your today
+        <button onClick={onOffEdit}>
+          <img src='./images/editIcon.png' alt='' />
+        </button>
       </h1>
       {Object.keys(cards).map((key) => (
         <CardEditForm

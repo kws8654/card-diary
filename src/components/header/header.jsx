@@ -8,7 +8,7 @@ const Header = ({ onLogout }) => (
         Logout
       </button>
     )}
-    <img className={styles.logo} src='/images/logo.png' alt='logo' />
+    <img className={styles.logo} src='./images/logo.png' alt='logo' />
     <h1 className={styles.title}>Card Diary</h1>
   </header>
 );
